@@ -1,14 +1,32 @@
-#navBar{
-    display: flex;
+nav{
+    height: 40px;
+    z-index: 1;
 }
-#navDiv{
-    display:flex;
+
+svg {
+    padding:5px
 }
-.leftIcons{
+
+.navBarLeft{
     display: flex;
     justify-content: left;
-    justify-content: space-evenly;
+    margin-left: 10px;
 }
+
+.leftIcons{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 10px;
+}
+
+.navBarRight{
+    display: flex;
+    justify-content: right;
+    align-content: space-evenly;
+    margin-right: 10px;
+
+}
+
 
 .body{
     background-color: #FFF4CF;
@@ -26,20 +44,23 @@
   }
   
 #project1Image {
+    height:50 px;
+    width: 50px;
     cursor: move;
     display: flex;
     justify-content: center;
   }
 #project1Text{
     font-weight: normal;
-    font-size:small;
+    font-size: small;
     text-align: center;
+    color: black;
     /* text-shadow: 1px 1px black; */
 }
 
 #resumeContainer{
     display: flex;
-    justify-content: right;
+    justify-content: center;
 }
 
 #resumeDiv {
@@ -47,6 +68,8 @@
 }
  
 #resumeImage {
+    height:50 px;
+    width: 50px;
     cursor: move;
     display: flex;
     justify-content: center;
@@ -54,7 +77,86 @@
 
 #resumeText{
     padding-top: 4px;
+    padding-left: 2px;
     font-weight: normal;
     font-size: small;
+    color: black;
+    /* text-shadow: 1px 1px black; */
+}
+
+#postgresContainer{
+    display: flex;
+    justify-content:right;
+    margin-right: 20px;
+}
+
+#postgresDiv {
+    position: absolute;
+}
+ 
+#postgresImage {
+    height:50 px;
+    width: 50px;
+    cursor: move;
+    display: flex;
+    justify-content: center;
+}
+
+#postgresText{
+    font-weight: normal;
+    padding-right: 3px;
+    font-size: small;
+    color: black;
+    /* text-shadow: 1px 1px black; */
+}
+
+#postmanContainer{
+    display: flex;
+    justify-content:right;
+    margin-right: 20px;
+    margin-top:100px;
+}
+
+#postmanDiv {
+    position: absolute;
+}
+ 
+#postmanImage {
+    height:60 px;
+    width: 60px;
+    cursor: move;
+    display: flex;
+    justify-content: center;
+}
+
+#postmanText{
+    font-weight: normal;
+    padding-right: 3px;
+    font-size: small;
+    color: black;
+    /* text-shadow: 1px 1px black; */
+}
+
+#project2Container{
+    display: flex;
+    justify-content: left;
+}
+
+#project2Div {
+    position: absolute;
+  }
+  
+#project2Image {
+    height:50 px;
+    width: 50px;
+    cursor: move;
+    display: flex;
+    justify-content: center;
+  }
+#project2Text{
+    font-weight: normal;
+    font-size: small;
+    text-align: center;
+    color: black;
     /* text-shadow: 1px 1px black; */
 }
