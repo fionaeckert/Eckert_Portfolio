@@ -48,44 +48,66 @@
     <body>
     <div id="project1Container">
         <div id="project1Div">
-            <img id="project1Image" src="./folder.png" alt="">
             <a href="https://github.com/fionaeckert/frontendproject" target="_blank" style="text-decoration: none">
+                <img id="project1Image" src="./folder.png" alt="">
                 <div id="project1Text">project_1</div>
              </a>
         </div>
     </div>
     <div id="resumeContainer">
         <div id="resumeDiv">
-            <img id="resumeImage" src="./pdf.png" alt="">
             <a href="./Eckert_Resume.pdf" download="Eckert_Resume" target="_blank" style="text-decoration: none">
+            <img id="resumeImage" src="./pdf.png" alt="">
                 <div id="resumeText">resume</div>
             </a>
         </div>
     </div>
     <div id="postgresContainer">
         <div id="postgresDiv">
-            <img id="postgresImage" src="./Database-postgres.svg.png" alt="">
             <a href="https://www.postgresql.org/" target="_blank" style="text-decoration: none">
+            <img id="postgresImage" src="./postgres.png" alt="">
                 <div id="postgresText">Postgres</div>
             </a>
         </div>
     </div>
     <div id="postmanContainer">
         <div id="postmanDiv">
-            <img id="postmanImage" src="./postman.png" alt="">
             <a href="https://www.postman.com/" target="_blank" style="text-decoration: none">
+                <img id="postmanImage" src="./postman.png" alt="">
                 <div id="postmanText">Postman</div>
             </a>
         </div>
     </div>
     <div id="project2Container">
         <div id="project2Div">
-            <img id="project2Image" src="./folder.png" alt="">
             <a href="https://chitterchatterchitterchatter.herokuapp.com/" target="_blank" style="text-decoration: none">
+                <img id="project2Image" src="./folder.png" alt="">
                 <div id="project2Text">project_2</div>
             </a>
         </div>
     </div>
+    <div id="aboutMeContainer">
+        <div id="aboutMeDiv">
+            <img id="aboutMeImage" src="./aboutMe.png" style="width:70px; height:70px;max-width:300px">
+            <div id="aboutMeText">About_Me!</div>
+            <!-- The Modal -->
+            <div id="aboutMeModal" class="modal">
+            <!-- The Close Button -->
+                <div class="close">X</div>
+            <!-- Modal Content (The Image) -->
+                <img class="modal-content" id="aboutMePopUp">
+            </div>
+        </div>
+    </div>
+    <div id="eightBallContainer">
+        <div id="eightBallDiv">
+            <div class="popup" onclick="getAFortune()">
+                <img id="eightBallImage" src="./8_ball.png" style="width:80px; height:70px;max-width:300px">
+                <span class="popuptext" id="myPopup">Click me!</span>
+            </div>
+        </div>
+    </div>
+    
 </body>
 <script src="./portfolio.js"></script>
 </html>

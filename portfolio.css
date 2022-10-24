@@ -1,162 +1,281 @@
-nav{
-    height: 40px;
-    z-index: 1;
+nav {
+  height: 40px;
+  z-index: 1;
 }
 
 svg {
-    padding:5px
+  padding: 5px;
 }
 
-.navBarLeft{
-    display: flex;
-    justify-content: left;
-    margin-left: 10px;
+.navBarLeft {
+  display: flex;
+  justify-content: left;
+  margin-left: 10px;
 }
 
-.leftIcons{
-    display: flex;
-    justify-content: space-evenly;
-    margin-left: 10px;
+.leftIcons {
+  display: flex;
+  justify-content: space-evenly;
+  margin-left: 10px;
 }
 
-.navBarRight{
-    display: flex;
-    justify-content: right;
-    align-content: space-evenly;
-    margin-right: 10px;
-
+.navBarRight {
+  display: flex;
+  justify-content: right;
+  align-content: space-evenly;
+  margin-right: 10px;
 }
 
-
-.body{
-    background-color: #FFF4CF;
-    width: 100%;
-    height: 100%;
+.body {
+  background-color: #fff4cf;
+  width: 100%;
+  height: 100%;
 }
 
-#project1Container{
-    display: flex;
-    justify-content: left;
+#project1Container {
+  display: flex;
+  justify-content: left;
+  margin-left:20px;
+  margin-top:20pxß
 }
 
 #project1Div {
-    position: absolute;
-  }
-  
-#project1Image {
-    height:50 px;
-    width: 50px;
-    cursor: move;
-    display: flex;
-    justify-content: center;
-  }
-#project1Text{
-    font-weight: normal;
-    font-size: small;
-    text-align: center;
-    color: black;
-    /* text-shadow: 1px 1px black; */
+  position: absolute;
 }
 
-#resumeContainer{
-    display: flex;
-    justify-content: center;
+#project1Image {
+  height: 70px;
+  width: 70px;
+  cursor: move;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+}
+#project1Text {
+  font-weight: normal;
+  font-size: medium;
+  text-align: center;
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+#resumeContainer {
+  display: flex;
+  margin-top: 15px;
+  margin-left: 300px
 }
 
 #resumeDiv {
-    position: absolute;
+  position: absolute;
 }
- 
+
 #resumeImage {
-    height:50 px;
-    width: 50px;
-    cursor: move;
-    display: flex;
-    justify-content: center;
+  height: 75px;
+  width: 70px;
+  cursor: move;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
 }
 
-#resumeText{
-    padding-top: 4px;
-    padding-left: 2px;
-    font-weight: normal;
-    font-size: small;
-    color: black;
-    /* text-shadow: 1px 1px black; */
+#resumeText {
+  padding-top: 4px;
+  padding-left: 8px;
+  font-weight: normal;
+  font-size: medium;
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
 }
 
-#postgresContainer{
-    display: flex;
-    justify-content:right;
-    margin-right: 20px;
+#postgresContainer {
+  display: flex;
+  justify-content: right;
+  margin-right: 20px;
+  margin-top: 10px;
 }
 
 #postgresDiv {
-    position: absolute;
+  position: absolute;
 }
- 
+
 #postgresImage {
-    height:50 px;
-    width: 50px;
-    cursor: move;
-    display: flex;
-    justify-content: center;
+  height: 50px;
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+  padding-left: 2px;
 }
 
-#postgresText{
-    font-weight: normal;
-    padding-right: 3px;
-    font-size: small;
-    color: black;
-    /* text-shadow: 1px 1px black; */
+#postgresText {
+  font-weight: normal;
+  font-size: medium;
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+  padding-right: 4px;
 }
 
-#postmanContainer{
-    display: flex;
-    justify-content:right;
-    margin-right: 20px;
-    margin-top:100px;
+#postmanContainer {
+  display: flex;
+  justify-content: right;
+  margin-right: 25px;
+  margin-top: 100px;
 }
 
 #postmanDiv {
-    position: absolute;
+  position: absolute;
 }
- 
+
 #postmanImage {
-    height:60 px;
-    width: 60px;
-    cursor: move;
-    display: flex;
-    justify-content: center;
+  height: 60 px;
+  width: 60px;
+  cursor: move;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
 }
 
-#postmanText{
-    font-weight: normal;
-    padding-right: 3px;
-    font-size: small;
-    color: black;
-    /* text-shadow: 1px 1px black; */
+#postmanText {
+  font-weight: normal;
+  font-size: medium;
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
 }
 
-#project2Container{
-    display: flex;
-    justify-content: left;
+#project2Container {
+  display: flex;
+  justify-content: left;
+  margin-left: 75px;
+  margin-top: 110px
 }
 
 #project2Div {
-    position: absolute;
-  }
-  
+  position: absolute;
+}
+
 #project2Image {
-    height:50 px;
-    width: 50px;
-    cursor: move;
-    display: flex;
-    justify-content: center;
+  height: 70px;
+  width: 70px;
+  cursor: move;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+}
+#project2Text {
+  font-weight: normal;
+  font-size: medium;
+  text-align: center;
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+#aboutMeContainer {
+  display: flex;
+  justify-content: left;
+  margin-left: 300px;
+  margin-top: 200px;
+}
+
+#aboutMeDiv {
+  position: absolute;
+}
+
+#aboutMeImage {
+  cursor: move;
+  display: flex;
+  justify-content: center;
+  padding-left: 10px;
+  cursor: pointer;
+}
+#aboutMeText {
+  font-weight: normal;
+  font-size: medium;
+  text-align: center;
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+}
+.modal {
+  display: none; 
+  position: fixed; 
+  z-index: 1; 
+  padding-top: 100px; 
+  left: 0;
+  top: 0;
+  width: 100%; 
+  height: 100%; 
+  overflow: auto; 
+}
+
+/* Modal Content (Image) */
+.modal-content {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+}
+
+/* Add Animation - Zoom in the Modal */
+.modal-content {
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@keyframes zoom {
+  from {
+    transform: scale(0);
   }
-#project2Text{
-    font-weight: normal;
-    font-size: small;
-    text-align: center;
-    color: black;
-    /* text-shadow: 1px 1px black; */
+  to {
+    transform: scale(1);
+  }
+}
+
+/* The Close Button */
+.close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+  z-index: 1;
+}
+
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px) {
+  .modal-content {
+    width: 100%;
+  }
+}
+#eightBallContainer {
+    display: flex;
+    justify-content: right;
+    margin-right:200px;
+    margin-bottom: 200px;
+}
+
+#eightBallDiv {
+  position: absolute;
+}
+
+#eightBallImage {
+  cursor: move;
+  display: flex;
+  justify-content: center;
+  padding-left: 10px;
+  cursor: pointer;
+}
+#myPopup {
+  font-weight: normal;
+  font-size: medium;
+  margin-left:10px;
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
 }
