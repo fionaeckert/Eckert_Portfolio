@@ -4,20 +4,22 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./portfolio.css">
+    <link rel="stylesheet" href="./index.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
     <title>Portfolio</title>
 </head>
-    <nav class="navbar bg-light" onload="setBackground()">
+    <nav class="navbar bg-light">
         <div class="navBarLeft">
             <div class="leftIcons">
                 <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-emoji-wink-fill" viewBox="0 0 16 16">
                     <path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0zM7 6.5C7 5.672 6.552 5 6 5s-1 .672-1 1.5S5.448 8 6 8s1-.672 1-1.5zM4.285 9.567a.5.5 0 0 0-.183.683A4.498 4.498 0 0 0 8 12.5a4.5 4.5 0 0 0 3.898-2.25.5.5 0 1 0-.866-.5A3.498 3.498 0 0 1 8 11.5a3.498 3.498 0 0 1-3.032-1.75.5.5 0 0 0-.683-.183zm5.152-3.31a.5.5 0 0 0-.874.486c.33.595.958 1.007 1.687 1.007.73 0 1.356-.412 1.687-1.007a.5.5 0 0 0-.874-.486.934.934 0 0 1-.813.493.934.934 0 0 1-.813-.493z"/>
                 </svg>
+                <a id="deepDish" href="https://www.google.com/search?q=deep+dish+pizza&tbm=isch&ved=2ahUKEwitwMT91vn6AhXekokEHQiNA80Q2-cCegQIABAA&oq=deep+dish+pizza&gs_lcp=CgNpbWcQAzIHCAAQsQMQQzIICAAQgAQQsQMyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDoECCMQJ1COBliOBmDZCGgAcAB4AIABUogBoQGSAQEymAEAoAEBqgELZ3dzLXdpei1pbWfAAQE&sclient=img&ei=GvJWY63LD96lptQPiJqO6Aw&bih=796&biw=1440" target="_blank" style="text-decoration: none;">Based in Chicago, IL</a>
             </div>
         </div>
+
         <div class="navBarRight">
             <div class="rightIcons">
                 <a href="https://www.linkedin.com/in/fiona-eckert/" target="_blank" style="text-decoration:none">
@@ -41,15 +43,46 @@
                     <path d="M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0zm3.669 11.538a.498.498 0 0 1-.686.165c-1.879-1.147-4.243-1.407-7.028-.77a.499.499 0 0 1-.222-.973c3.048-.696 5.662-.397 7.77.892a.5.5 0 0 1 .166.686zm.979-2.178a.624.624 0 0 1-.858.205c-2.15-1.321-5.428-1.704-7.972-.932a.625.625 0 0 1-.362-1.194c2.905-.881 6.517-.454 8.986 1.063a.624.624 0 0 1 .206.858zm.084-2.268C10.154 5.56 5.9 5.419 3.438 6.166a.748.748 0 1 1-.434-1.432c2.825-.857 7.523-.692 10.492 1.07a.747.747 0 1 1-.764 1.288z"/>
                     </svg>
                 </a>
+                
                 <span id="span"></span>
             </div>
         </div>  
     </nav>
     <body>
+        <div class="sticky-container">
+            <div class="sticky-outer">
+              <div class="sticky">
+                <svg width="0" height="0">
+                  <defs>
+                    <clipPath id="stickyClip" clipPathUnits="objectBoundingBox">
+                      <path
+                        d="M 0 0 Q 0 0.69, 0.03 0.96 0.03 0.96, 1 0.96 Q 0.96 0.69, 0.96 0 0.96 0, 0 0"
+                        stroke-linejoin="round"
+                        stroke-linecap="square"
+                      />
+                    </clipPath>
+                  </defs>
+                </svg>
+                <div class="sticky-content">
+                    <br>
+                    My Skills ✨
+                    <br>
+                    <br>
+                    HTML • CSS • Boostrap 🎨
+                    <br>
+                    Javascript • Python • SQL ⌨️
+                    <br>
+                    Node.js • Express • PostgreSQL 🖥️
+                    <br>
+                    Postman • AWS • Heroku • Netlify 🌐
+                </div>
+              </div>
+            </div>
+          </div>
     <div id="project1Container">
         <div id="project1Div">
             <a href="https://github.com/fionaeckert/frontendproject" target="_blank" style="text-decoration: none">
-                <img id="project1Image" src="./folder.png" alt="">
+                <img id="project1Image" src="./images/folder.png" alt="">
                 <div id="project1Text">project_1</div>
              </a>
         </div>
@@ -57,38 +90,30 @@
     <div id="resumeContainer">
         <div id="resumeDiv">
             <a href="./Eckert_Resume.pdf" download="Eckert_Resume" target="_blank" style="text-decoration: none">
-            <img id="resumeImage" src="./pdf.png" alt="">
+            <img id="resumeImage" src="./images/pdf.png" alt="">
                 <div id="resumeText">resume</div>
-            </a>
-        </div>
-    </div>
-    <div id="postgresContainer">
-        <div id="postgresDiv">
-            <a href="https://www.postgresql.org/" target="_blank" style="text-decoration: none">
-            <img id="postgresImage" src="./postgres.png" alt="">
-                <div id="postgresText">Postgres</div>
-            </a>
-        </div>
-    </div>
-    <div id="postmanContainer">
-        <div id="postmanDiv">
-            <a href="https://www.postman.com/" target="_blank" style="text-decoration: none">
-                <img id="postmanImage" src="./postman.png" alt="">
-                <div id="postmanText">Postman</div>
             </a>
         </div>
     </div>
     <div id="project2Container">
         <div id="project2Div">
             <a href="https://chitterchatterchitterchatter.herokuapp.com/" target="_blank" style="text-decoration: none">
-                <img id="project2Image" src="./folder.png" alt="">
+                <img id="project2Image" src="./images/folder.png" alt="">
                 <div id="project2Text">project_2</div>
+            </a>
+        </div>
+    </div>
+    <div id="project3Container">
+        <div id="project3Div">
+            <a href="" target="_blank" style="text-decoration: none">
+                <img id="project3Image" src="./images/folder.png" alt="">
+                <div id="project3Text">project_3</div>
             </a>
         </div>
     </div>
     <div id="aboutMeContainer">
         <div id="aboutMeDiv">
-            <img id="aboutMeImage" src="./aboutMe.png" style="width:70px; height:70px;max-width:300px">
+            <img id="aboutMeImage" src="./images/aboutMe.png">
             <div id="aboutMeText">About_Me!</div>
             <!-- The Modal -->
             <div id="aboutMeModal" class="modal">
@@ -99,15 +124,22 @@
             </div>
         </div>
     </div>
+    <div id="project4Container">
+        <div id="project4Div">
+            <a href="" target="_blank" style="text-decoration: none">
+                <img id="project4Image" src="./images/folder.png" alt="">
+                <div id="project4Text">project_4</div>
+            </a>
+        </div>
+    </div>
     <div id="eightBallContainer">
         <div id="eightBallDiv">
             <div class="popup" onclick="getAFortune()">
-                <img id="eightBallImage" src="./8_ball.png" style="width:80px; height:70px;max-width:300px">
+                <img id="eightBallImage" src="./images/8_ball.png" style="width:80px; height:70px;max-width:300px">
                 <span class="popuptext" id="myPopup">Click me!</span>
             </div>
         </div>
     </div>
-    
 </body>
-<script src="./portfolio.js"></script>
+<script src="./index.js"></script>
 </html>

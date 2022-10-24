@@ -1,10 +1,23 @@
+@font-face{
+  font-family:FT88;
+  src:url('./FT88-Regular.ttf')
+}
 nav {
   height: 40px;
   z-index: 1;
+  font-family: 'FT88';
 }
 
 svg {
   padding: 5px;
+}
+
+#deepDish{
+  padding-left: 15px;
+  padding-top: 2px;
+  font-weight: medium;
+  color: #000000;
+  cursor: url('./pizza.png'), auto;
 }
 
 .navBarLeft {
@@ -24,19 +37,37 @@ svg {
   justify-content: right;
   align-content: space-evenly;
   margin-right: 10px;
+  margin-bottom:8px;
+}
+#span{
+  font-family: 'FT88';
+
 }
 
-.body {
-  background-color: #fff4cf;
-  width: 100%;
-  height: 100%;
+body {
+	background: linear-gradient(-45deg, #FF731D, #FFF7E9, #5F9DF7, #1746A2);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
 }
 
 #project1Container {
   display: flex;
   justify-content: left;
   margin-left:20px;
-  margin-top:20pxß
+  margin-top:20px
 }
 
 #project1Div {
@@ -44,8 +75,8 @@ svg {
 }
 
 #project1Image {
-  height: 70px;
-  width: 70px;
+  height: 80px;
+  width: 80px;
   cursor: move;
   display: flex;
   justify-content: center;
@@ -57,12 +88,13 @@ svg {
   text-align: center;
   color: white;
   text-shadow: 2px 2px 4px #000000;
+  
 }
 
 #resumeContainer {
   display: flex;
   margin-top: 15px;
-  margin-left: 300px
+  margin-left: 325px
 }
 
 #resumeDiv {
@@ -70,7 +102,7 @@ svg {
 }
 
 #resumeImage {
-  height: 75px;
+  height: 80px;
   width: 70px;
   cursor: move;
   display: flex;
@@ -87,66 +119,11 @@ svg {
   text-shadow: 2px 2px 4px #000000;
 }
 
-#postgresContainer {
-  display: flex;
-  justify-content: right;
-  margin-right: 20px;
-  margin-top: 10px;
-}
-
-#postgresDiv {
-  position: absolute;
-}
-
-#postgresImage {
-  height: 50px;
-  width: 50px;
-  display: flex;
-  justify-content: center;
-  cursor: pointer;
-  padding-left: 2px;
-}
-
-#postgresText {
-  font-weight: normal;
-  font-size: medium;
-  color: white;
-  text-shadow: 2px 2px 4px #000000;
-  padding-right: 4px;
-}
-
-#postmanContainer {
-  display: flex;
-  justify-content: right;
-  margin-right: 25px;
-  margin-top: 100px;
-}
-
-#postmanDiv {
-  position: absolute;
-}
-
-#postmanImage {
-  height: 60 px;
-  width: 60px;
-  cursor: move;
-  display: flex;
-  justify-content: center;
-  cursor: pointer;
-}
-
-#postmanText {
-  font-weight: normal;
-  font-size: medium;
-  color: white;
-  text-shadow: 2px 2px 4px #000000;
-}
-
 #project2Container {
   display: flex;
   justify-content: left;
-  margin-left: 75px;
-  margin-top: 110px
+  margin-left: 120px;
+  margin-top: 60px
 }
 
 #project2Div {
@@ -154,8 +131,8 @@ svg {
 }
 
 #project2Image {
-  height: 70px;
-  width: 70px;
+  height: 80px;
+  width: 80px;
   cursor: move;
   display: flex;
   justify-content: center;
@@ -172,8 +149,8 @@ svg {
 #aboutMeContainer {
   display: flex;
   justify-content: left;
-  margin-left: 300px;
-  margin-top: 200px;
+  margin-left: 200px;
+  margin-top: 140px;
 }
 
 #aboutMeDiv {
@@ -186,6 +163,8 @@ svg {
   justify-content: center;
   padding-left: 10px;
   cursor: pointer;
+  height: 80px;
+  width: 80px;
 }
 #aboutMeText {
   font-weight: normal;
@@ -211,7 +190,7 @@ svg {
   margin: auto;
   display: block;
   width: 80%;
-  max-width: 700px;
+  max-width: 500px;
 }
 
 /* Add Animation - Zoom in the Modal */
@@ -232,7 +211,7 @@ svg {
 /* The Close Button */
 .close {
   position: absolute;
-  top: 15px;
+  top: 30px;
   right: 35px;
   color: #f1f1f1;
   font-size: 40px;
@@ -276,6 +255,137 @@ svg {
   font-weight: normal;
   font-size: medium;
   margin-left:10px;
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+#project3Container {
+  display: flex;
+  margin-left:40px;
+  margin-top:100px
+}
+
+#project3Div {
+  position: absolute;
+}
+
+#project3Image {
+  height: 80px;
+  width: 80px;
+  cursor: move;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+}
+#project3Text {
+  font-weight: normal;
+  font-size: medium;
+  text-align: center;
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+.sticky-container {
+  display: flex;
+  justify-content: right;
+  margin-right:375px;
+}
+
+.sticky-outer {
+  display: flex;
+}
+
+.sticky {
+  position: absolute;
+  height:250px;
+  width: 300px;
+}
+
+/* Shadow behind the sticky note */
+.sticky:before {
+  box-shadow: -2px 2px 15px 0 rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.25);
+  content: '';
+  width: 90%;
+  left: 5px;
+  height: 83%;
+  position: absolute;
+  top: 30%;
+}
+
+/* The sticky note itself */
+.sticky-content {
+  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  background: linear-gradient(
+    180deg,
+    rgb(255, 229, 180)0%,
+    rgb(255, 229, 180)12%,
+    rgb(255, 229, 180)75%,
+    rgb(255, 229, 180)100%
+  );
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  justify-content:center;
+  font-size: 9;
+  
+
+  clip-path: url(#stickyClip);
+}
+
+@media screen and (min-width: 640px) {
+  .sticky:before {
+    height: 80%;
+    width: 90%;
+  }
+  .sticky-content {
+    font-size: 9;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .sticky:before {
+    height: 75%;
+    width: 90%;
+  }
+  .sticky-content {
+    font-size: 9;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .sticky:before {
+    height: 73%;
+    width: 90%;
+  }
+  .sticky-content {
+    font-size: 9;
+  }
+}
+
+#project4Container {
+  display: flex;
+  margin-left:300px;
+  margin-top:120px;
+}
+
+#project4Div {
+  position: absolute;
+}
+
+#project4Image {
+  height: 80px;
+  width: 80px;
+  cursor: move;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+}
+#project4Text {
+  font-weight: normal;
+  font-size: medium;
+  text-align: center;
   color: white;
   text-shadow: 2px 2px 4px #000000;
 }
