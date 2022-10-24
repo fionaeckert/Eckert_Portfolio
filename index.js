@@ -1,3 +1,4 @@
+const key = process.env.KEY
 //-----------------------------------------------------------------------------------
 var span = document.getElementById('span');
 
@@ -270,7 +271,7 @@ var popup = document.getElementById("myPopup");
 const options = {
   method: 'GET',
   headers: {
-    'X-RapidAPI-Key': 'd02dc84b57mshedc2b1f6614dd8ap18fc18jsn952a46505a27',
+    'X-RapidAPI-Key': key,
     'X-RapidAPI-Host': 'magic-8-ball1.p.rapidapi.com'
   }
 };
