@@ -233,6 +233,7 @@ body {
     width: 100%;
   }
 }
+
 #eightBallContainer {
     display: flex;
     justify-content: right;
@@ -251,6 +252,7 @@ body {
   padding-left: 10px;
   cursor: pointer;
 }
+
 #myPopup {
   font-weight: normal;
   font-size: medium;
