@@ -2,6 +2,13 @@
   font-family:FT88;
   src:url('./FT88-Regular.ttf')
 }
+@font-face{
+  font-family: Pilowlava;;
+  src:url('./Pilowlava-Regular.otf')
+}
+title{
+  font-family: 'Pilowlava';
+}
 nav {
   height: 40px;
   z-index: 1;
@@ -17,7 +24,7 @@ svg {
   padding-top: 2px;
   font-weight: medium;
   color: #000000;
-  cursor: url('./pizza.png'), auto;
+  cursor: url('./images/pizza.png'), auto;
 }
 
 .navBarLeft {
