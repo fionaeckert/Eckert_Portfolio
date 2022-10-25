@@ -26,22 +26,25 @@
 }
 
 @media screen and (max-width: 768px) {
-  #project1Div{margin-top:300px}
+  #project1Div{margin-top:350px}
 }
 @media screen and (max-width: 768px) {
-  #resumeDiv{margin-top:260px}
+  #resumeDiv{margin-top:300px}
 }
 @media screen and (max-width: 768px) {
-  #project2Div{margin-top:200px}
+  #project2Div{margin-top:240px}
 }
 @media screen and (max-width: 768px) {
-  #project3Div{margin-top:220px}
+  #project3Div{margin-top:280px}
 }
 @media screen and (max-width: 768px) {
-  #project4Div{margin-right:300px}
+  #project4Div{margin-top:100px}
 }
 @media screen and (max-width: 768px) {
-  #eightBallDiv{margin-top:75px}
+  #eightBallDiv{margin-top:90px}
+}
+@media screen and (max-width: 768px) {
+  #aboutMeDiv{margin-top:90px}
 }
 
 title{
