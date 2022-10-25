@@ -38,10 +38,10 @@
   #project3Div{margin-top:380px}
 }
 @media screen and (max-width: 768px) {
-  #project4Div{margin-top:300px}
+  #project4Div{margin-top:350px}
 }
 @media screen and (max-width: 768px) {
-  #eightBallDiv{margin-top:250px}
+  #eightBallDiv{margin-top:290px}
 }
 @media screen and (max-width: 768px) {
   #aboutMeDiv{margin-top:150px}
@@ -417,7 +417,7 @@ body {
 
 #project4Container {
   display: flex;
-  margin-left:220px;
+  margin-left:270px;
   margin-top:110px;
 }
 
