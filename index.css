@@ -6,6 +6,44 @@
   font-family: Pilowlava;;
   src:url('./Pilowlava-Regular.otf')
 }
+@media screen and (max-width: 768px) {
+  nav{font-size: 14px};
+}
+
+@media screen and (max-width: 768px) {
+  div.navBarLeft{margin:0px}
+}
+
+@media screen and (max-width: 768px) {
+  div.navBarRight{margin:0px}
+}
+@media screen and (max-width: 768px) {
+  div.navBarLeft{width: 42%;}
+}
+
+@media screen and (max-width: 768px) {
+  div.navBarRight{width:52.5%;}
+}
+
+@media screen and (max-width: 768px) {
+  #project1Div{margin-top:300px}
+}
+@media screen and (max-width: 768px) {
+  #resumeDiv{margin-top:260px}
+}
+@media screen and (max-width: 768px) {
+  #project2Div{margin-top:200px}
+}
+@media screen and (max-width: 768px) {
+  #project3Div{margin-top:220px}
+}
+@media screen and (max-width: 768px) {
+  #project4Div{margin-right:300px}
+}
+@media screen and (max-width: 768px) {
+  #eightBallDiv{margin-top:75px}
+}
+
 title{
   font-family: 'Pilowlava';
 }
@@ -13,7 +51,7 @@ nav {
   height: 40px;
   z-index: 1;
   font-family: 'FT88';
-}
+  }
 
 svg {
   padding: 5px;
@@ -70,7 +108,7 @@ body {
 	}
 }
 
-#project1Container {
+.project1Container {
   display: flex;
   justify-content: left;
   margin-left:20px;
@@ -101,7 +139,7 @@ body {
 #resumeContainer {
   display: flex;
   margin-top: 15px;
-  margin-left: 325px
+  margin-left: 305px
 }
 
 #resumeDiv {
@@ -244,8 +282,8 @@ body {
 #eightBallContainer {
     display: flex;
     justify-content: right;
-    margin-right:200px;
-    margin-bottom: 200px;
+    margin-right:160px;
+    margin-top: 30px;
 }
 
 #eightBallDiv {
@@ -297,7 +335,8 @@ body {
 .sticky-container {
   display: flex;
   justify-content: right;
-  margin-right:375px;
+  margin-right:350px;
+  margin-top:20px
 }
 
 .sticky-outer {
@@ -375,8 +414,8 @@ body {
 
 #project4Container {
   display: flex;
-  margin-left:300px;
-  margin-top:120px;
+  margin-left:220px;
+  margin-top:110px;
 }
 
 #project4Div {
