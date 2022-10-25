@@ -35,16 +35,16 @@
   #project2Div{margin-top:240px}
 }
 @media screen and (max-width: 768px) {
-  #project3Div{margin-top:280px}
+  #project3Div{margin-top:320px}
 }
 @media screen and (max-width: 768px) {
-  #project4Div{margin-top:100px}
+  #project4Div{margin-top:130px}
 }
 @media screen and (max-width: 768px) {
-  #eightBallDiv{margin-top:90px}
+  #eightBallDiv{margin-top:130px}
 }
 @media screen and (max-width: 768px) {
-  #aboutMeDiv{margin-top:90px}
+  #aboutMeDiv{margin-top:130px}
 }
 
 title{
