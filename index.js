@@ -2,7 +2,7 @@
 var span = document.getElementById('span');
 
 (function calendarDate() {
-  var days = ['Sun','Mon','Tues','Wedn','Thurs','Fri','Sat'];
+  var days = ['Sun','Mon','Tues','Wed','Thurs','Fri','Sat'];
 
   var months = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
 
