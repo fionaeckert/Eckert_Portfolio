@@ -38,16 +38,25 @@
   #project2Div{margin-top:220px}
 }
 @media screen and (max-width: 768px) {
-  #project3Div{margin-top:380px}
+  #project3Div{margin-top:200px}
 }
 @media screen and (max-width: 768px) {
   #project4Div{margin-top:350px}
 }
 @media screen and (max-width: 768px) {
-  #eightBallDiv{margin-top:290px}
+  #eightBallDiv{margin-top:150px}
 }
 @media screen and (max-width: 768px) {
-  #aboutMeDiv{margin-top:150px}
+  #aboutMeDiv{margin-top:340px}
+}
+@media screen and (max-width: 768px) {
+  #aboutProject1Div{margin-top:300px}
+}
+@media screen and (max-width: 768px) {
+  #aboutProject2Div{margin-top:150px}
+}
+@media screen and (max-width: 768px) {
+  #aboutProject3Div{margin-top:150px}
 }
 
 title{
@@ -200,9 +209,10 @@ body {
 
 #aboutMeContainer {
   display: flex;
-  justify-content: left;
-  margin-left: 200px;
-  margin-top: 140px;
+  justify-content: flex-start;
+  align-items:flex-start;
+  margin-left: 250px;
+  margin-top: 100px;
 }
 
 #aboutMeDiv {
@@ -213,7 +223,6 @@ body {
   cursor: move;
   display: flex;
   justify-content: center;
-  padding-left: 10px;
   cursor: pointer;
   height: 80px;
   width: 80px;
@@ -261,7 +270,7 @@ body {
 }
 
 /* The Close Button */
-.close {
+.aboutMeClose {
   position: absolute;
   top: 30px;
   right: 35px;
@@ -272,8 +281,8 @@ body {
   z-index: 1;
 }
 
-.close:hover,
-.close:focus {
+.aboutMeClose:hover,
+.aboutMeClose:focus {
   color: #bbb;
   text-decoration: none;
   cursor: pointer;
@@ -289,8 +298,8 @@ body {
 #eightBallContainer {
     display: flex;
     justify-content: right;
-    margin-right:160px;
-    margin-top: 30px;
+    align-items: flex-start;
+    margin-right: 400px;
 }
 
 #eightBallDiv {
@@ -424,8 +433,9 @@ body {
 
 #project4Container {
   display: flex;
-  margin-left:270px;
-  margin-top:110px;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 100px;
 }
 
 #project4Div {
@@ -446,4 +456,137 @@ body {
   text-align: center;
   color: white;
   text-shadow: 2px 2px 4px #000000;
+}
+
+#aboutProject1Container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  margin-top: 200px;
+  margin-right: 200px;
+}
+
+#aboutProject1Div {
+  position: absolute;
+}
+
+#aboutProject1Image {
+  cursor: move;
+  display: flex;
+  justify-content: center;
+  padding-left: 10px;
+  cursor: pointer;
+  height: 80px;
+  width: 90px;
+}
+#aboutProject1Text {
+  font-weight: normal;
+  font-size: medium;
+  text-align: center;
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+}
+.aboutProject1Close {
+  position: absolute;
+  top: 30px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+  z-index: 1;
+}
+
+.aboutProject1Close:hover,
+.aboutProject1Close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+#aboutProject2Container {
+  display: flex;
+  justify-content: right;
+  align-items: flex-start;
+  margin-right: 100px;
+}
+
+#aboutProject2Div {
+  position: absolute;
+}
+
+#aboutProject2Image {
+  cursor: move;
+  display: flex;
+  justify-content: center;
+  padding-left: 10px;
+  cursor: pointer;
+  height: 80px;
+  width: 90px;
+}
+#aboutProject2Text {
+  font-weight: normal;
+  font-size: medium;
+  text-align: center;
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+}
+.aboutProject2Close {
+  position: absolute;
+  top: 30px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+  z-index: 1;
+}
+
+.aboutProject2Close:hover,
+.aboutProject2Close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+#aboutProject3Container {
+  display: flex;
+  justify-content: right;
+  align-items:flex-end;
+}
+
+#aboutProject3Div {
+  position: absolute;
+}
+
+#aboutProject3Image {
+  cursor: move;
+  display: flex;
+  justify-content: center;
+  padding-left: 10px;
+  cursor: pointer;
+  height: 80px;
+  width: 90px;
+}
+#aboutProject3Text {
+  font-weight: normal;
+  font-size: medium;
+  text-align: center;
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+}
+.aboutProject3Close {
+  position: absolute;
+  top: 30px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+  z-index: 1;
+}
+
+.aboutProject3Close:hover,
+.aboutProject3Close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
 }

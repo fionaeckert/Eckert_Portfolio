@@ -192,19 +192,19 @@ function dragElement(elmnt) {
   }
 }
 
-var modal = document.getElementById("aboutMeModal");
+var modal1 = document.getElementById("aboutMeModal");
 
-var img = document.getElementById("aboutMeImage");
-var modalImg = document.getElementById("aboutMePopUp");
-img.onclick = function(){
-  modal.style.display = "block";
-  modalImg.src = this.src;
+var img1 = document.getElementById("aboutMeImage");
+var modal1Img = document.getElementById("aboutMePopUp");
+img1.onclick = function(){
+  modal1.style.display = "block";
+  modal1Img.src = "./images/aboutMe.png";
 }
 
-var div = document.getElementsByClassName("close")[0];
+var div1 = document.getElementsByClassName("aboutMeClose")[0];
 
-div.onclick = function() {
-  modal.style.display = "none";
+div1.onclick = function() {
+  modal1.style.display = "none";
 }
 //-----------------------------------------------------------------------------------
 let eightBallDiv = dragElement(document.getElementById("eightBallDiv"));
@@ -331,3 +331,155 @@ function pop() {
     }
   }
   //-----------------------------------------------------------------------------------
+  let aboutProject1Image = dragElement(document.getElementById("aboutProject1Div"));
+
+  function dragElement(elmnt) {
+    var pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
+    if (document.getElementById(elmnt.id + "header")) {
+      document.getElementById(elmnt.id + "header").onmousedown = dragMouseDown;
+    } else {
+      elmnt.onmousedown = dragMouseDown;
+    }
+  
+    function dragMouseDown(e) {
+      e = e || window.event;
+      e.preventDefault();
+      pos3 = e.clientX;
+      pos4 = e.clientY;
+      document.onmouseup = closeDragElement;
+      document.onmousemove = elementDrag;
+    }
+  
+    function elementDrag(e) {
+      e = e || window.event;
+      e.preventDefault();
+      pos1 = pos3 - e.clientX;
+      pos2 = pos4 - e.clientY;
+      pos3 = e.clientX;
+      pos4 = e.clientY;
+      elmnt.style.top = (elmnt.offsetTop - pos2) + "px";
+      elmnt.style.left = (elmnt.offsetLeft - pos1) + "px";
+    }
+  
+    function closeDragElement() {
+      document.onmouseup = null;
+      document.onmousemove = null;
+    }
+  }
+  
+  var modal2 = document.getElementById("aboutProject1Modal");
+  
+  var img2 = document.getElementById("aboutProject1Image");
+  var modal2Img = document.getElementById("aboutProject1PopUp");
+  img2.onclick = function(){
+    modal2.style.display = "block";
+    modal2Img.src = "./images/aboutProject1.png";
+  }
+  
+  var div2 = document.getElementsByClassName("aboutProject1Close")[0];
+  
+  div2.onclick = function() {
+    modal2.style.display = "none";
+  }
+  //-----------------------------------------------------------------------------------
+  let aboutProject2Image = dragElement(document.getElementById("aboutProject2Div"));
+
+  function dragElement(elmnt) {
+    var pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
+    if (document.getElementById(elmnt.id + "header")) {
+      document.getElementById(elmnt.id + "header").onmousedown = dragMouseDown;
+    } else {
+      elmnt.onmousedown = dragMouseDown;
+    }
+  
+    function dragMouseDown(e) {
+      e = e || window.event;
+      e.preventDefault();
+      pos3 = e.clientX;
+      pos4 = e.clientY;
+      document.onmouseup = closeDragElement;
+      document.onmousemove = elementDrag;
+    }
+  
+    function elementDrag(e) {
+      e = e || window.event;
+      e.preventDefault();
+      pos1 = pos3 - e.clientX;
+      pos2 = pos4 - e.clientY;
+      pos3 = e.clientX;
+      pos4 = e.clientY;
+      elmnt.style.top = (elmnt.offsetTop - pos2) + "px";
+      elmnt.style.left = (elmnt.offsetLeft - pos1) + "px";
+    }
+  
+    function closeDragElement() {
+      document.onmouseup = null;
+      document.onmousemove = null;
+    }
+  }
+  
+  var modal3 = document.getElementById("aboutProject2Modal");
+  
+  var img3 = document.getElementById("aboutProject2Image");
+  var modal3Img = document.getElementById("aboutProject2PopUp");
+  img3.onclick = function(){
+    modal3.style.display = "block";
+    modal3Img.src = "./images/aboutProject2.png";
+  }
+  
+  var div3 = document.getElementsByClassName("aboutProject2Close")[0];
+  
+  div3.onclick = function() {
+    modal3.style.display = "none";
+  }
+  //-----------------------------------------------------------------------------------
+  let aboutProject3Image = dragElement(document.getElementById("aboutProject3Div"));
+
+  function dragElement(elmnt) {
+    var pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
+    if (document.getElementById(elmnt.id + "header")) {
+      document.getElementById(elmnt.id + "header").onmousedown = dragMouseDown;
+    } else {
+      elmnt.onmousedown = dragMouseDown;
+    }
+  
+    function dragMouseDown(e) {
+      e = e || window.event;
+      e.preventDefault();
+      pos3 = e.clientX;
+      pos4 = e.clientY;
+      document.onmouseup = closeDragElement;
+      document.onmousemove = elementDrag;
+    }
+  
+    function elementDrag(e) {
+      e = e || window.event;
+      e.preventDefault();
+      pos1 = pos3 - e.clientX;
+      pos2 = pos4 - e.clientY;
+      pos3 = e.clientX;
+      pos4 = e.clientY;
+      elmnt.style.top = (elmnt.offsetTop - pos2) + "px";
+      elmnt.style.left = (elmnt.offsetLeft - pos1) + "px";
+    }
+  
+    function closeDragElement() {
+      document.onmouseup = null;
+      document.onmousemove = null;
+    }
+  }
+  
+  var modal4 = document.getElementById("aboutProject3Modal");
+  
+  var img4 = document.getElementById("aboutProject3Image");
+  var modal4Img = document.getElementById("aboutProject3PopUp");
+  img4.onclick = function(){
+    modal4.style.display = "block";
+    modal4Img.src = "./images/aboutProject3.png";
+  }
+  
+  var div4 = document.getElementsByClassName("aboutProject3Close")[0];
+  
+  div4.onclick = function() {
+    modal4.style.display = "none";
+  }
