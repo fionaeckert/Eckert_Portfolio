@@ -53,7 +53,7 @@
   #aboutMeDiv{margin-top:300px}
 }
 @media screen and (max-width: 768px) {
-  #aboutMeDiv{margin-right:130px}
+  #aboutMeDiv{margin-right:160px}
 }
 @media screen and (max-width: 768px) {
   #aboutProject1Div{bottom: 0;}
