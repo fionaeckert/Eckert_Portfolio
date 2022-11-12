@@ -59,11 +59,15 @@
   #aboutProject1Div{bottom: 0;}
 }
 @media screen and (max-width: 768px) {
+  #aboutProject1Div{margin-left: 80px;}
+}
+@media screen and (max-width: 768px) {
   #aboutProject2Div{margin-top:100px}
 }
 @media screen and (max-width: 768px) {
   #aboutProject3Div{bottom:0px}
 }
+
 
 title{
   font-family: 'Pilowlava';
