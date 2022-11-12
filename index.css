@@ -47,13 +47,13 @@
   #eightBallDiv{margin-top:150px}
 }
 @media screen and (max-width: 768px) {
-  #aboutMeDiv{margin-top:340px}
+  #aboutMeDiv{margin-top:300px}
 }
 @media screen and (max-width: 768px) {
   #aboutProject1Div{bottom: 0;}
 }
 @media screen and (max-width: 768px) {
-  #aboutProject2Div{margin-top:150px}
+  #aboutProject2Div{margin-top:100px}
 }
 @media screen and (max-width: 768px) {
   #aboutProject3Div{bottom:0px}
