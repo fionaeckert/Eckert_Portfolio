@@ -41,6 +41,9 @@
   #project3Div{margin-top:300px}
 }
 @media screen and (max-width: 768px) {
+  #project3Div{margin-left:100px}
+}
+@media screen and (max-width: 768px) {
   #project4Div{margin-top:400px}
 }
 @media screen and (max-width: 768px) {
@@ -50,7 +53,7 @@
   #aboutMeDiv{margin-top:300px}
 }
 @media screen and (max-width: 768px) {
-  #aboutMeDiv{margin-right:50px}
+  #aboutMeDiv{margin-right:100px}
 }
 @media screen and (max-width: 768px) {
   #aboutProject1Div{bottom: 0;}
