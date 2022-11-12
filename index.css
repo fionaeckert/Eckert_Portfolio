@@ -29,6 +29,9 @@
   #project1Div{margin-top:350px}
 }
 @media screen and (max-width: 768px) {
+  #project1Div{left: 0}
+}
+@media screen and (max-width: 768px) {
   #project1Div{margin-top:500px}
 }
 @media screen and (max-width: 768px) {
@@ -57,9 +60,6 @@
 }
 @media screen and (max-width: 768px) {
   #aboutProject1Div{bottom: 0;}
-}
-@media screen and (max-width: 768px) {
-  #aboutProject1Div{margin-left: 80px;}
 }
 @media screen and (max-width: 768px) {
   #aboutProject2Div{margin-top:100px}
