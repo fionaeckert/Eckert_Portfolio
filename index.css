@@ -50,13 +50,13 @@
   #aboutMeDiv{margin-top:340px}
 }
 @media screen and (max-width: 768px) {
-  #aboutProject1Div{margin-top:500px}
+  #aboutProject1Div{margin-top:800px}
 }
 @media screen and (max-width: 768px) {
   #aboutProject2Div{margin-top:500px}
 }
 @media screen and (max-width: 768px) {
-  #aboutProject3Div{margin-top:500px}
+  #aboutProject3Div{margin-top:800px}
 }
 
 title{
