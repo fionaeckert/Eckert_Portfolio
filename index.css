@@ -528,7 +528,7 @@ body {
   cursor: move;
   display: flex;
   justify-content: center;
-  padding-left: 10px;
+  margin-left: 10px;
   cursor: pointer;
   height: 80px;
   width: 90px;
